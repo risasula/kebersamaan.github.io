@@ -32,6 +32,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .swiper-slide img {
@@ -56,6 +57,7 @@ body {
     color: #fff;
     background: #007aff;
 }
+
 
 /* POPUP DALAM SEBUAH WEB */
 #popup {
@@ -188,11 +190,11 @@ body {
     display: block;
     z-index: 999999;
     min-height: 100vh;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .form {
